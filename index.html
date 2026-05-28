@@ -1,114 +1,236 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agro Sustentável</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f9f4;
-            color: #333;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1.5rem;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #388E3C;
-            padding: 0.5rem 0;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1rem;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 2rem;
-            max-width: 1000px;
-            margin: auto;
-        }
-        h2 {
-            color: #2E7D32;
-        }
-        .interactive-img {
-            width: 100%;
-            max-width: 600px;
-            display: block;
-            margin: 1rem auto;
-            cursor: pointer;
-            transition: transform 0.3s;
-        }
-        .interactive-img:hover {
-            transform: scale(1.05);
-        }
-        footer {
-            background-color: #2E7D32;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
-        }
-    </style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>EcoAgro Future</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
 </head>
+
 <body>
 
-<header>
-    <h1>Agro Sustentável</h1>
-    <p>Promovendo a agricultura que respeita o meio ambiente e gera futuro</p>
-</header>
+  <!-- NAVBAR -->
 
-<nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#beneficios">Benefícios</a>
-    <a href="#imagens">Imagens Interativas</a>
-</nav>
+  <header>
 
-<section id="sobre">
-    <h2>O que é Agro Sustentável?</h2>
-    <p>O agro sustentável é um modelo de produção agrícola que busca equilibrar a produtividade com a preservação ambiental. Ele envolve práticas como rotação de culturas, uso racional de recursos hídricos, agricultura orgânica e preservação da biodiversidade. Dessa forma, garante alimentos de qualidade e protege o planeta para as próximas gerações.</p>
-</section>
+    <nav>
 
-<section id="beneficios">
-    <h2>Benefícios do Agro Sustentável</h2>
-    <ul>
-        <li>Redução do impacto ambiental e emissão de gases poluentes.</li>
-        <li>Preservação da biodiversidade e do solo.</li>
-        <li>Produção de alimentos mais saudáveis e seguros.</li>
-        <li>Fortalecimento da economia local e sustentável.</li>
-    </ul>
-</section>
+      <div class="logo">
+        🌱 EcoAgro Future
+      </div>
 
-<section id="imagens">
-    <h2>Imagens Interativas</h2>
-    <p>Clique nas imagens para conhecer mais sobre cada prática sustentável:</p>
-    
-    <img src="https://via.placeholder.com/600x400?text=Plantio+Diversificado" 
-         alt="Plantio Diversificado" class="interactive-img"
-         onclick="alert('O plantio diversificado ajuda a melhorar a saúde do solo e reduzir pragas naturalmente.')">
-    
-    <img src="https://via.placeholder.com/600x400?text=Irrigação+Eficiente" 
-         alt="Irrigação Eficiente" class="interactive-img"
-         onclick="alert('Sistemas de irrigação eficientes economizam água e aumentam a produtividade.')">
-    
-    <img src="https://via.placeholder.com/600x400?text=Agrofloresta" 
-         alt="Agrofloresta" class="interactive-img"
-         onclick="alert('A agrofloresta combina árvores e culturas agrícolas, melhorando a biodiversidade e o solo.')">
-</section>
+      <ul>
 
-<footer>
-    <p>© 2026 Agro Sustentável | Todos os direitos reservados</p>
-</footer>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#tecnologia">Tecnologia</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content" data-aos="fade-up">
+
+      <span>AGRICULTURA DO FUTURO</span>
+
+      <h1>
+        Sustentabilidade, tecnologia e inovação no coração do agro
+      </h1>
+
+      <p>
+        O novo agro é inteligente, sustentável e conectado.
+        Produzir mais preservando os recursos naturais é o maior desafio da humanidade.
+      </p>
+
+      <a href="#sobre" class="btn">
+        Explorar Projeto
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- SOBRE -->
+
+  <section id="sobre" class="about">
+
+    <div class="text" data-aos="fade-right">
+
+      <h2>O Agro Sustentável</h2>
+
+      <p>
+        A agricultura sustentável busca equilibrar produção e preservação ambiental.
+        Técnicas modernas reduzem impactos ambientais e aumentam a eficiência agrícola.
+      </p>
+
+      <p>
+        A integração entre tecnologia, energias renováveis e inteligência artificial
+        está revolucionando o campo.
+      </p>
+
+    </div>
+
+    <div class="image tilt" data-aos="fade-left">
+
+      <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop">
+
+    </div>
+
+  </section>
+
+  <!-- CARDS 3D -->
+
+  <section class="cards-section">
+
+    <h2 data-aos="fade-up">
+      Tecnologias Sustentáveis
+    </h2>
+
+    <div class="cards">
+
+      <div class="card tilt" data-aos="zoom-in">
+
+        <h3>🌿 Agricultura Inteligente</h3>
+
+        <p>
+          Sensores monitoram o solo em tempo real.
+        </p>
+
+      </div>
+
+      <div class="card tilt" data-aos="zoom-in">
+
+        <h3>☀ Energia Solar</h3>
+
+        <p>
+          Fazendas modernas usam energia renovável.
+        </p>
+
+      </div>
+
+      <div class="card tilt" data-aos="zoom-in">
+
+        <h3>💧 Economia de Água</h3>
+
+        <p>
+          Irrigação automatizada reduz desperdícios.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CURIOSIDADES -->
+
+  <section id="curiosidades" class="curiosidades">
+
+    <h2 data-aos="fade-up">
+      Curiosidades do Agro
+    </h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item" data-aos="fade-right">
+
+        <h3>🌎 70% da água doce</h3>
+
+        <p>
+          A agricultura utiliza cerca de 70% da água doce do planeta.
+        </p>
+
+      </div>
+
+      <div class="timeline-item" data-aos="fade-left">
+
+        <h3>🚜 IA no campo</h3>
+
+        <p>
+          Inteligência artificial já detecta pragas automaticamente.
+        </p>
+
+      </div>
+
+      <div class="timeline-item" data-aos="fade-right">
+
+        <h3>🌱 Carbono neutro</h3>
+
+        <p>
+          Fazendas sustentáveis conseguem reduzir emissões de carbono.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- GALERIA -->
+
+  <section id="galeria" class="gallery">
+
+    <h2 data-aos="fade-up">
+      Galeria Interativa
+    </h2>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item tilt">
+        <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1200&auto=format&fit=crop">
+      </div>
+
+      <div class="gallery-item tilt">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop">
+      </div>
+
+      <div class="gallery-item tilt">
+        <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=1200&auto=format&fit=crop">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <h2>EcoAgro Future</h2>
+
+    <p>
+      O futuro sustentável começa agora.
+    </p>
+
+  </footer>
+
+  <!-- SCRIPTS -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script src="script.js"></script>
 
 </body>
+
 </html>
