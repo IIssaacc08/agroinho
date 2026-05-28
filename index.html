@@ -1,239 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>EcoAgro | Futuro Sustentável</title>
-
-  <link rel="stylesheet" href="style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Sustentável</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #388E3C;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #2E7D32;
+        }
+        .interactive-img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 1rem auto;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .interactive-img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #2E7D32;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
-
 <body>
 
-  <header class="hero">
-
-    <nav class="navbar">
-
-      <div class="logo">
-        🌱 EcoAgro
-      </div>
-
-      <ul class="menu">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#impacto">Impacto</a></li>
-        <li><a href="#tecnologia">Tecnologia</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-
-    </nav>
-
-    <div class="hero-content">
-
-      <span class="tag">
-        AGRICULTURA • TECNOLOGIA • SUSTENTABILIDADE
-      </span>
-
-      <h1>
-        O futuro do agro começa com escolhas sustentáveis
-      </h1>
-
-      <p>
-        Produzir alimentos com responsabilidade ambiental é mais do que uma tendência:
-        é um compromisso com as próximas gerações.
-        O agro sustentável une inovação, preservação da natureza
-        e eficiência no campo.
-      </p>
-
-      <div class="hero-buttons">
-        <a href="#sobre" class="btn-primary">Explorar</a>
-        <a href="#impacto" class="btn-secondary">Saiba Mais</a>
-      </div>
-
-    </div>
-
-  </header>
-
-  <section id="sobre" class="section">
-
-    <div class="section-title">
-      <span>AGRO MODERNO</span>
-      <h2>Sustentabilidade que transforma o planeta</h2>
-    </div>
-
-    <div class="grid-2">
-
-      <div class="text-box">
-
-        <p>
-          A sustentabilidade no agronegócio representa uma nova forma de produzir:
-          mais inteligente, consciente e equilibrada.
-        </p>
-
-        <p>
-          O uso racional da água, a preservação das florestas,
-          o controle biológico de pragas e a redução de desperdícios
-          ajudam a garantir uma agricultura produtiva sem comprometer os recursos naturais.
-        </p>
-
-        <p>
-          O agro sustentável protege o solo,
-          reduz impactos ambientais e promove qualidade de vida
-          para produtores e consumidores.
-        </p>
-
-      </div>
-
-      <div class="image-card">
-        <div class="glass">
-          <h3>🌎 Agricultura Inteligente</h3>
-          <p>
-            Tecnologia e natureza trabalhando juntas para alimentar o mundo.
-          </p>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-
-  <section id="impacto" class="impact-section">
-
-    <div class="overlay"></div>
-
-    <div class="impact-content">
-
-      <h2>Por que investir em sustentabilidade?</h2>
-
-      <div class="cards">
-
-        <div class="impact-card">
-          <h3>💧 Preservação da Água</h3>
-
-          <p>
-            Sistemas de irrigação modernos reduzem desperdícios
-            e aumentam a eficiência hídrica no campo.
-          </p>
-        </div>
-
-        <div class="impact-card">
-          <h3>🌿 Solo Saudável</h3>
-
-          <p>
-            Técnicas sustentáveis mantêm a fertilidade do solo
-            e evitam erosões.
-          </p>
-        </div>
-
-        <div class="impact-card">
-          <h3>☀ Energia Limpa</h3>
-
-          <p>
-            Energia solar e fontes renováveis
-            reduzem custos e impactos ambientais.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <section id="tecnologia" class="section">
-
-    <div class="section-title">
-      <span>INOVAÇÃO NO CAMPO</span>
-      <h2>Tecnologia aplicada ao agro sustentável</h2>
-    </div>
-
-    <div class="tech-grid">
-
-      <div class="tech-box">
-        <h3>🚜 Agricultura de Precisão</h3>
-
-        <p>
-          Sensores inteligentes monitoram o solo,
-          clima e produtividade em tempo real.
-        </p>
-      </div>
-
-      <div class="tech-box">
-        <h3>📡 Monitoramento Digital</h3>
-
-        <p>
-          Drones e satélites auxiliam na gestão agrícola sustentável.
-        </p>
-      </div>
-
-      <div class="tech-box">
-        <h3>🌱 Produção Responsável</h3>
-
-        <p>
-          Menos desperdício, maior produtividade
-          e respeito ao meio ambiente.
-        </p>
-      </div>
-
-    </div>
-
-  </section>
-
-  <section class="numbers">
-
-    <div class="number-box">
-      <h2>85%</h2>
-      <p>Redução de desperdício hídrico</p>
-    </div>
-
-    <div class="number-box">
-      <h2>70%</h2>
-      <p>Mais eficiência agrícola</p>
-    </div>
-
-    <div class="number-box">
-      <h2>100%</h2>
-      <p>Compromisso ambiental</p>
-    </div>
-
-  </section>
-
-  <section id="contato" class="contact-section">
-
-    <div class="contact-card">
-
-      <h2>Entre em contato</h2>
-
-      <form>
-
-        <input type="text" placeholder="Seu nome">
-
-        <input type="email" placeholder="Seu e-mail">
-
-        <textarea placeholder="Digite sua mensagem"></textarea>
-
-        <button type="submit">
-          Enviar Mensagem
-        </button>
-
-      </form>
-
-    </div>
-
-  </section>
-
-  <footer>
-
-    <p>
-      © 2026 EcoAgro • Sustentabilidade no campo 🌱
-    </p>
-
-  </footer>
+<header>
+    <h1>Agro Sustentável</h1>
+    <p>Promovendo a agricultura que respeita o meio ambiente e gera futuro</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#beneficios">Benefícios</a>
+    <a href="#imagens">Imagens Interativas</a>
+</nav>
+
+<section id="sobre">
+    <h2>O que é Agro Sustentável?</h2>
+    <p>O agro sustentável é um modelo de produção agrícola que busca equilibrar a produtividade com a preservação ambiental. Ele envolve práticas como rotação de culturas, uso racional de recursos hídricos, agricultura orgânica e preservação da biodiversidade. Dessa forma, garante alimentos de qualidade e protege o planeta para as próximas gerações.</p>
+</section>
+
+<section id="beneficios">
+    <h2>Benefícios do Agro Sustentável</h2>
+    <ul>
+        <li>Redução do impacto ambiental e emissão de gases poluentes.</li>
+        <li>Preservação da biodiversidade e do solo.</li>
+        <li>Produção de alimentos mais saudáveis e seguros.</li>
+        <li>Fortalecimento da economia local e sustentável.</li>
+    </ul>
+</section>
+
+<section id="imagens">
+    <h2>Imagens Interativas</h2>
+    <p>Clique nas imagens para conhecer mais sobre cada prática sustentável:</p>
+    
+    <img src="https://via.placeholder.com/600x400?text=Plantio+Diversificado" 
+         alt="Plantio Diversificado" class="interactive-img"
+         onclick="alert('O plantio diversificado ajuda a melhorar a saúde do solo e reduzir pragas naturalmente.')">
+    
+    <img src="https://via.placeholder.com/600x400?text=Irrigação+Eficiente" 
+         alt="Irrigação Eficiente" class="interactive-img"
+         onclick="alert('Sistemas de irrigação eficientes economizam água e aumentam a produtividade.')">
+    
+    <img src="https://via.placeholder.com/600x400?text=Agrofloresta" 
+         alt="Agrofloresta" class="interactive-img"
+         onclick="alert('A agrofloresta combina árvores e culturas agrícolas, melhorando a biodiversidade e o solo.')">
+</section>
+
+<footer>
+    <p>© 2026 Agro Sustentável | Todos os direitos reservados</p>
+</footer>
 
 </body>
 </html>
