@@ -1,45 +1,108 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agro Sustentável</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agro Sustentável</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header>
-        <h1>Agro Sustentável</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#praticas">Práticas Sustentáveis</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="sobre">
-        <h2>Sobre o Agro Sustentável</h2>
-        <p>O agro sustentável busca produzir alimentos, fibras e energia de forma que preserve o meio ambiente, respeite a biodiversidade e valorize a vida no campo.</p>
-    </section>
+  <header class="hero">
+    <nav>
+      <h1>🌱 Agro Sustentável</h1>
 
-    <section id="praticas">
-        <h2>Práticas Sustentáveis</h2>
-        <ul>
-            <li>Rotação de culturas</li>
-            <li>Uso de fertilizantes naturais</li>
-            <li>Economia de água e energia</li>
-            <li>Preservação de áreas verdes</li>
-        </ul>
-    </section>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#praticas">Práticas</a></li>
+        <li><a href="#beneficios">Benefícios</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Email: contato@agrosustentavel.com</p>
-    </section>
+    <div class="hero-text">
+      <h2>Produção agrícola com respeito à natureza</h2>
+      <p>
+        Sustentabilidade, tecnologia e preservação ambiental caminhando juntas.
+      </p>
 
-    <footer>
-        <p>&copy; 2026 Agro Sustentável</p>
-    </footer>
+      <a href="#praticas" class="btn">Conheça Mais</a>
+    </div>
+  </header>
+
+  <section id="sobre" class="section">
+    <h2>Sobre o Projeto</h2>
+
+    <p>
+      O Agro Sustentável promove práticas agrícolas responsáveis,
+      incentivando o uso consciente dos recursos naturais,
+      preservando o solo, a água e a biodiversidade.
+    </p>
+  </section>
+
+  <section id="praticas" class="section cards">
+    <h2>Práticas Sustentáveis</h2>
+
+    <div class="card-container">
+
+      <div class="card">
+        <h3>🌿 Rotação de Culturas</h3>
+        <p>
+          Mantém o solo fértil e reduz pragas naturalmente.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>💧 Economia de Água</h3>
+        <p>
+          Sistemas inteligentes de irrigação evitam desperdícios.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>☀️ Energia Renovável</h3>
+        <p>
+          Uso de energia solar e fontes limpas no campo.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🌳 Preservação Ambiental</h3>
+        <p>
+          Proteção de matas, rios e fauna local.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="beneficios" class="section beneficios">
+    <h2>Benefícios do Agro Sustentável</h2>
+
+    <ul>
+      <li>✅ Redução dos impactos ambientais</li>
+      <li>✅ Produção mais saudável</li>
+      <li>✅ Conservação do solo</li>
+      <li>✅ Maior eficiência no uso de recursos</li>
+      <li>✅ Desenvolvimento econômico sustentável</li>
+    </ul>
+  </section>
+
+  <section id="contato" class="section contato">
+    <h2>Contato</h2>
+
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu email" required>
+      <textarea placeholder="Sua mensagem"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Agro Sustentável | Desenvolvido com foco no futuro 🌎</p>
+  </footer>
+
 </body>
 </html>
